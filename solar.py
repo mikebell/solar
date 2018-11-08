@@ -23,14 +23,3 @@ if now < sunset:
     print 'Its not sunset'
 else:
     print 'Its sunset'
-
-
-
-# 53.5148428,-2.3373282
-
-# https://api.sunrise-sunset.org/json?lat=53.5148428&lng=-2.3373282
-
-# r = requests.get('https://api.sunrise-sunset.org/json?lat=53.5148428&lng=-2.3373282')
-# r.json()
-
-# print r.json()
